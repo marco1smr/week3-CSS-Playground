@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Micro+5&display=swap');
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(191, 186, 126); 
+}
+
+.heading {
+   text-align: center;
+   font-size: 2rem;
+   font-family: "Micro 5", sans-serif;
+   color: aqua;
+} 
+
+.main {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 2rem auto;
+}
+
+.main > div{
+    width: 200px;
+    height: 200px;
+    border-radius:50%; 
+    margin: 0 auto;
+}
+
+#red {
+    border: 1px solid red;
+}
+
+#green {
+    border: 1px solid green;
+}
+
+#blue{
+    border: 1px solid blue;
+}
+
+.footer{
+    text-align: center;
+}
